@@ -2,4 +2,144 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-size: 62.5%;
+  font-size: 0.8rem;
+}
+
+main {
+  /* background-color: bisque;
+  color: white; */
+  background-image: url(../image/Background/small.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* border: 1px solid red; */
+  width: 50vw;
+  height: 40vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  width: 50vw;
+  height: 30vh;
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 10vh;
+}
+
+.main-image img {
+  border-radius: 20px;
+  width: 23vw;
+  height: 18vh;
+}
+
+.main-input {
+  display: inline-grid;
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-input input {
+  margin-top: 0.7rem;
+  width: 30vw;
+  height: 2vh;
+}
+
+.main-input span {
+  margin-top: 0.5rem;
+}
+
+.main-input button {
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media (min-width: 720px) {
+  main {
+    background-image: url(../image/Background/medium.jpg);
+  }
+
+  .container {
+    width: 30vw;
+  }
+
+  .main-container {
+    width: 30vw;
+  }
+}
+@media (min-width: 1000px) {
+  main {
+    background-image: url(../image/Background/large.jpg);
+  }
+  html {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 50%;
+    height: 70%;
+    /* box-shadow: 1px 1px 1px 1px black; */
+  }
+
+  .main-container {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-image {
+    margin: 0 auto;
+    width: 30%;
+    height: 50%;
+  }
+
+  .main-image img {
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-input {
+    justify-items: center;
+    width: 100%;
+    height: 40%;
+  }
+
+  .main-input input {
+    display: inline;
+    width: 70%;
+    height: 50%;
+    border-radius: 20px;
+  }
+
+  .main-input button {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
