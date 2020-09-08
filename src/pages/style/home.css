@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-size: 1.3rem;
+}
+
+header {
+  width: inherit;
+  height: inherit;
+}
+
+.main-home {
+  background: grey;
+  width: 100vw;
+  height: 80vh;
+  padding: 0.5rem;
+}
+
+.main-container {
+  display: contents;
+  width: inherit;
+  height: inherit;
+}
+
+.main-side {
+  width: 40%;
+  height: 100%;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.side-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  margin: 1rem;
+  /* width: 2rem; */
+  height: 20%;
+}
+
+.main-content {
+  width: 80%;
+  height: 100%;
+  padding: 1rem;
+}
